@@ -128,6 +128,7 @@ export default function SeoCalculator() {
                 </p>
                 <p className="text-2xl text-[#030033] font-bold">
                   {currency}
+                  {' '}
                   {chartData.totalCosts.toLocaleString(undefined, {
                     minimumFractionDigits: 2,
                     maximumFractionDigits: 2,
@@ -145,6 +146,7 @@ export default function SeoCalculator() {
                 </p>
                 <p className="text-2xl text-[#030033] font-bold">
                   {currency}
+                  {' '}
                   {chartData.totalProfit.toLocaleString(undefined, {
                     minimumFractionDigits: 2,
                     maximumFractionDigits: 2,

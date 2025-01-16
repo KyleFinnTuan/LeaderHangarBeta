@@ -1,5 +1,5 @@
 import React from "react";
-import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/atoms/accordion";
+import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/shadcn/accordion";
 
 interface TooltipContentCardsProps {
   cards: { title: string; content: string }[];

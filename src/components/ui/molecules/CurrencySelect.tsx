@@ -5,7 +5,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/atoms/select"
+} from "@/components/ui/shadcn/select"
 
 export const currencyOptions = [
   { value: "$", label: "USD - US Dollar" },
